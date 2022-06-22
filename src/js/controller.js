@@ -127,5 +127,6 @@ const init = function () {
   recipeView.addHandlerServings(controlService);
 
   addRecipeView.addHandlerSubmitForm(controlAddRecipe);
+  console.log('hell');
 };
 init();
