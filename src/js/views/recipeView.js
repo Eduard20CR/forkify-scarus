@@ -1,7 +1,8 @@
 import icons from 'url:./../../img/icons.svg';
-import { Fraction } from 'fractional';
+import { Fraction } from 'fractional/index';
 import View from './View';
 
+console.dir(Fraction);
 class RecipeView extends View {
   constructor() {
     super();
